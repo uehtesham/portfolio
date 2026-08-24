@@ -3485,11 +3485,11 @@ span {
   fill: var(--header);
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   br {
     display: none;
   }
-}
+} */
 
 /* background */
 .bg-cover {
