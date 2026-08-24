@@ -5574,7 +5574,7 @@ input.main-search-input::placeholder {
   margin-top: 30px;
 }
 .project-wrapper .project-items .image {
-  height: 500px;
+  height: 440px;
 }
 @media (max-width: 991px) {
   .project-wrapper .project-items .image {
@@ -5589,6 +5589,9 @@ input.main-search-input::placeholder {
 .project-wrapper .project-items .image img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  /* max-width: 100%; */
+  /* height: auto; */
   border-radius: 16px;
   border: var(--border);
   object-fit: cover;
@@ -6270,6 +6273,11 @@ input.main-search-input::placeholder {
     font-size: 18px;
   }
 }
+
+.service-wrapper .services-item .text {
+  flex: 2;
+}
+
 .service-wrapper .services-item .text p {
   color: #bbbcbc;
 }
