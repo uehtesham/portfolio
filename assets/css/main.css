@@ -3595,16 +3595,29 @@ span {
     display: none;
   }
 }
+
 .hero-1 .arrow-shape {
   position: absolute;
-  top: 28%;
-  left: 76.5%;
+  top: 10%;
+  left: 65%;
+  z-index: -1;
 }
+
+.hero-1 .arrow-shape img {
+  width: 80%;
+}
+
 @media (max-width: 1199px) {
   .hero-1 .arrow-shape {
-    display: none;
+    top: 10%;
+    left: 60%;
+  }
+
+  .hero-1 .arrow-shape img {
+    width: 100%;
   }
 }
+
 .hero-1 .arrow-up {
   position: absolute;
   bottom: 125px;
