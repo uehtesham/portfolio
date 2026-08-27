@@ -5620,6 +5620,8 @@ input.main-search-input::placeholder {
   .project-wrapper .project-items .content {
     flex-wrap: wrap;
     gap: 20px;
+    flex-direction: column;
+    align-items: self-start;
   }
 }
 .project-wrapper .project-items .content h4 {
@@ -6240,12 +6242,14 @@ input.main-search-input::placeholder {
   .service-wrapper .services-item {
     flex-wrap: wrap;
     gap: 20px;
+    flex-direction: column;
+    align-items: start;
   }
 }
 .service-wrapper .services-item .head {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 20px;
   width: 300px;
 }
 @media (max-width: 1199px) {
